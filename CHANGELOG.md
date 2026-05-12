@@ -2,7 +2,7 @@
 
 ## v1.3.7 (2026-05-13)
 
-[下载 IRememberU_1.3.7_x64-setup.exe](https://github.com/WiBeeBaBu/i_remember_u_release/releases/tag/v1.3.7)
+[下载 I-Remember-U_1.3.7_x64-setup.exe](https://github.com/WiBeeBaBu/i_remember_u_release/releases/tag/v1.3.7)
 
 **新增**
 - ECDSA P-256 激活码系统（离线验证，一码绑定 3 台设备）

@@ -1,5 +1,22 @@
 # 更新日志
 
+## v1.3.8 (2026-05-16)
+
+[下载 I Remember U_1.3.8_x64-setup.exe](https://github.com/WiBeeBaBu/i_remember_u_release/releases/tag/v1.3.8)
+
+**新增**
+- 时区设置独立卡片（手动步进 + 快捷预设 + 实时时钟）
+- 仪表盘按所选时区零点刷新倒计时
+- 初始化应用功能（清除激活状态，恢复未激活）
+- 隐私说明 Tips
+
+**优化**
+- 仪表盘缓存消除页面切换跳动
+- 启动上报跳过无激活码的空记录
+- 设备指纹对齐到硬件 MachineGuid
+
+---
+
 ## v1.3.7 (2026-05-13)
 
 [下载 I Remember U_1.3.7_x64-setup.exe](https://github.com/WiBeeBaBu/i_remember_u_release/releases/tag/v1.3.7)

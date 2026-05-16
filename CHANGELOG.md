@@ -1,5 +1,25 @@
 # 更新日志
 
+## v1.3.9 (2026-05-16)
+
+[下载 I Remember U_1.3.9_x64-setup.exe](https://github.com/WiBeeBaBu/i_remember_u_release/releases/tag/v1.3.9)
+
+**新增**
+- 英文名字段 + 姓名显示偏好（中文名/英文名/中英同显）
+- Excel/CSV 批量导入联系人（模板下载 + 拖拽 + 预览行选择）
+- 仪表盘性别标注（♂/♀/⚧ 图标 + 关系彩色标签）
+- 联系人卡片显示关联标签
+- 下载目录设置
+
+**优化**
+- 联系人页窄屏自适应（索引条 + FAB 按钮）
+- 导入弹窗全 CustomSelect 列映射
+- 数据库 JSON 导入统一拖拽交互
+- 欢迎页字体预加载消除闪动
+
+**修复**
+- 发行版文件拖拽导入（Tauri onDragDropEvent + tauri-plugin-fs）
+
 ## v1.3.8 (2026-05-16)
 
 [下载 I Remember U_1.3.8_x64-setup.exe](https://github.com/WiBeeBaBu/i_remember_u_release/releases/tag/v1.3.8)

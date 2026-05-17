@@ -1,0 +1,13 @@
+{
+  "mandatory": false,
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/WiBeeBaBu/i_remember_u_release/releases/download/v1.4.0/I Remember U_1.4.0_x64-setup.exe",
+      "checksum_sha256": "0908b917588facd600abee3af08a264e6407a0ce8113211adb4a75521beacb12",
+      "signature": ""
+    }
+  },
+  "version": "1.4.0",
+  "pub_date": "2026-05-17T18:11:49Z",
+  "notes": "v1.4.0 热更新"
+}

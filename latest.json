@@ -1,13 +1,13 @@
 {
+  "version": "1.4.0",
   "mandatory": false,
+  "pub_date": "2026-05-17T19:00:50Z",
+  "notes": "## v1.4.0 更新内容\r\n\r\n### 新增\r\n- 热更新机制：启动静默检查 + 手动检查更新 + 多端点网络容灾\r\n- 强制更新支持\r\n- CI/CD 自动化构建发布\r\n- Sidecar 优雅关闭\r\n\r\n### 优化\r\n- 设置页开关按钮统一样式",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/WiBeeBaBu/i_remember_u_release/releases/download/v1.4.0/I Remember U_1.4.0_x64-setup.exe",
-      "checksum_sha256": "0908b917588facd600abee3af08a264e6407a0ce8113211adb4a75521beacb12",
-      "signature": ""
+      "signature": "",
+      "checksum_sha256": "6aaeae3e2b26cf9d37fff3aebd5f58e5f0c2c802730cd862504879db052c793c",
+      "url": "https://github.com/WiBeeBaBu/i_remember_u_release/releases/download/v1.4.0/I Remember U_1.4.0_x64-setup.exe"
     }
-  },
-  "version": "1.4.0",
-  "pub_date": "2026-05-17T18:11:49Z",
-  "notes": "v1.4.0 热更新"
+  }
 }

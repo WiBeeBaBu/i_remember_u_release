@@ -1,13 +1,13 @@
 {
+  "notes": "## v1.4.1 更新内容\r\n\r\n### 新增\r\n- 桌面宠物：SVG 珊瑚心形角色悬浮桌面\r\n- 5 种动画状态：待机呼吸、点击弹跳、拖拽方向形变、睡眠摇摆、生日提醒睁眼感叹号\r\n- 拖拽移动 + 方向形变\r\n- 生日提醒联动桌宠弹窗\r\n\r\n### 优化\r\n- 设置页开关按钮统一样式",
+  "mandatory": false,
+  "pub_date": "2026-05-19T09:48:04Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/WiBeeBaBu/i_remember_u_release/releases/download/v1.4.0/I Remember U_1.4.0_x64-setup.exe",
+      "url": "https://github.com/WiBeeBaBu/i_remember_u_release/releases/download/v1.4.1/I Remember U_1.4.1_x64-setup.exe",
       "signature": "",
-      "checksum_sha256": "58ecbfa97a5993be0e34be71822739b3f2f1cdcd2a1227aed42ae220ff20f187"
+      "checksum_sha256": "3a210c03e77c07aa3d40c8ae3f2bc3f32bf4c2f3191bc897b626c503ba625c27"
     }
   },
-  "notes": "## v1.4.0 更新内容\r\n\r\n### 新增\r\n- 热更新机制：启动静默检查 + 手动检查更新 + 多端点网络容灾\r\n- 强制更新支持\r\n- CI/CD 自动化构建发布\r\n- Sidecar 优雅关闭\r\n\r\n### 优化\r\n- 设置页开关按钮统一样式",
-  "mandatory": false,
-  "version": "1.4.0",
-  "pub_date": "2026-05-17T19:17:02Z"
+  "version": "1.4.1"
 }

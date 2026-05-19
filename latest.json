@@ -1,13 +1,13 @@
 {
   "version": "1.4.1",
-  "notes": "## v1.4.1 更新内容\n\n### 新增\n- 桌面宠物：SVG 珊瑚心形角色悬浮桌面\n- 5 种动画状态：待机呼吸、点击弹跳、拖拽方向形变、睡眠摇摆、生日提醒睁眼感叹号\n- 拖拽移动 + 方向形变\n- 生日提醒联动桌宠弹窗\n\n### 优化\n- 设置页开关按钮统一样式",
-  "pub_date": "2026-05-19T09:48:04Z",
+  "notes": "",
+  "pub_date": "2026-05-19T10:12:15Z",
   "mandatory": false,
   "platforms": {
     "windows-x86_64": {
       "signature": "",
       "url": "https://github.com/WiBeeBaBu/i_remember_u_release/releases/download/v1.4.1/I Remember U_1.4.1_x64-setup.exe",
-      "checksum_sha256": "3c37776fdccd4332b6344cfc2c62428acaa639d3211b8bd55b64619b72718078"
+      "checksum_sha256": "8d588986fb434e7d959069196f36e507b1140108525994aa06fcad05e3e5ebd3"
     }
   }
 }

@@ -1,13 +1,13 @@
 {
   "version": "1.4.1",
-  "notes": "## v1.4.1 更新内容\n\n### 新增\n- 桌面宠物：SVG 珊瑚心形角色悬浮桌面\n- 5 种动画状态：待机呼吸、点击弹跳、拖拽方向形变、睡眠摇摆、生日提醒睁眼感叹号\n- 拖拽移动 + 方向形变\n- 生日提醒联动桌宠弹窗\n\n### 优化\n- 设置页开关按钮统一样式",
-  "pub_date": "2026-05-19T17:13:55Z",
   "mandatory": false,
   "platforms": {
     "windows-x86_64": {
-      "signature": "",
+      "checksum_sha256": "368dc40b0c18a645f86e6df28a9712828e65cbe73f2b0b952816e75d1e8ced4f",
       "url": "https://github.com/WiBeeBaBu/i_remember_u_release/releases/download/v1.4.1/I.Remember.U_1.4.1_x64-setup.exe",
-      "checksum_sha256": "793f92c6aa314ac142631d29ae3d691227adbfb4ca61831fc15c2a3c334af48f"
+      "signature": ""
     }
-  }
+  },
+  "notes": "## v1.4.1 更新内容\r\n\r\n### 新增\r\n- 桌面宠物（SVG珊瑚心形角色，5状态动画：待机呼吸/点击弹跳/拖拽形变/睡眠摇摆/生日提醒弹窗）\r\n- 热更新机制（双端点容灾：GitHub Raw + Supabase Storage，流式下载+SHA256校验+NSIS静默安装）\r\n- CI/CD自动化构建发布（GitHub Actions workflow_dispatch 一键构建）\r\n\r\n### 优化\r\n- 开关按钮统一样式（ON态bg-primary-500 + transition-all动效）\r\n- 热更新支持强制更新标记（mandatory不可跳过）\r\n- Sidecar优雅关闭（POST /shutdown → saveDb → exit）\r\n\r\n### 修复\r\n- pet.html拖拽失效（恢复LogicalPosition，修复IPC序列化类型丢失）",
+  "pub_date": "2026-05-19T18:43:19Z"
 }

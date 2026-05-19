@@ -1,12 +1,12 @@
 {
-  "version": "1.3.9",
-  "notes": "日历UI优化：暖色柔和标记+暗色降饱和+标注显隐控制+图钉管理\n多项Bug修复：模板下载/标签溢出/导出UI/版本号/联网检测/日历导出/文案\n版本号动态化：Vite define 注入",
-  "pub_date": "2026-05-17T12:00:00Z",
+  "version": "1.4.1",
+  "notes": "## v1.4.1 更新内容\n\n### 新增\n- 桌面宠物：SVG 珊瑚心形角色悬浮桌面\n- 5 种动画状态：待机呼吸、点击弹跳、拖拽方向形变、睡眠摇摆、生日提醒睁眼感叹号\n- 拖拽移动 + 方向形变\n- 生日提醒联动桌宠弹窗\n\n### 优化\n- 设置页开关按钮统一样式",
+  "pub_date": "2026-05-19T09:48:04Z",
   "mandatory": false,
   "platforms": {
     "windows-x86_64": {
       "signature": "",
-      "url": "https://github.com/WiBeeBaBu/i_remember_u_release/releases/download/v1.3.9/I.Remember.U_1.3.9_x64-setup.exe",
+      "url": "https://github.com/WiBeeBaBu/i_remember_u_release/releases/download/v1.4.1/I Remember U_1.4.1_x64-setup.exe",
       "checksum_sha256": "3c37776fdccd4332b6344cfc2c62428acaa639d3211b8bd55b64619b72718078"
     }
   }

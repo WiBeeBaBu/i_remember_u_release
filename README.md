@@ -6,7 +6,7 @@
 
 一个温暖、私密的个人关系管理桌面应用。
 
-[![Version](https://img.shields.io/badge/version-1.3.9-coral)]()
+[![Version](https://img.shields.io/badge/version-1.4.1-coral)]()
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-blue)]()
 
 </div>

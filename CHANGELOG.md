@@ -1,5 +1,31 @@
 # 更新日志
 
+## v1.4.1 (2026-05-19)
+
+[下载 I Remember U_1.4.1_x64-setup.exe](https://github.com/WiBeeBaBu/i_remember_u_release/releases/tag/v1.4.1)
+
+**新增**
+- 桌面宠物（SVG 珊瑚心形角色，5 状态动画：待机呼吸/点击弹跳/拖拽形变/睡眠摇摆/生日提醒弹窗）
+- 开关按钮统一样式（ON 态 bg-primary-500 + transition-all 动效）
+
+**优化**
+- 热更新支持强制更新标记（mandatory 不可跳过）
+- Sidecar 优雅关闭（POST /shutdown → saveDb → exit）
+
+**修复**
+- pet.html 拖拽失效（恢复 LogicalPosition，修复 IPC 序列化类型丢失）
+
+## v1.4.0 (2026-05-18)
+
+[下载 I Remember U_1.4.0_x64-setup.exe](https://github.com/WiBeeBaBu/i_remember_u_release/releases/tag/v1.4.0)
+
+**新增**
+- 热更新机制（双端点容灾：GitHub Raw + Supabase Storage，流式下载 + SHA256 校验 + NSIS 静默安装）
+- CI/CD 自动化构建发布（GitHub Actions workflow_dispatch 一键构建）
+
+**优化**
+- 日历 UI 全面优化（标注显隐开关/图钉管理/暗色柔和/配色统一）
+
 ## v1.3.9 (2026-05-16)
 
 [下载 I Remember U_1.3.9_x64-setup.exe](https://github.com/WiBeeBaBu/i_remember_u_release/releases/tag/v1.3.9)

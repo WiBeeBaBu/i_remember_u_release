@@ -1,13 +1,13 @@
 {
+  "pub_date": "2026-05-20T02:39:44Z",
+  "notes": "## v1.4.1 更新内容\r\n\r\n### 新增\r\n- 桌面宠物（SVG珊瑚心形角色，5状态动画：待机呼吸/点击弹跳/拖拽形变/睡眠摇摆/生日提醒弹窗）\r\n- 热更新机制（双端点容灾：GitHub Raw + Supabase Storage，流式下载+SHA256校验+NSIS静默安装）\r\n- CI/CD自动化构建发布（GitHub Actions workflow_dispatch 一键构建）\r\n\r\n### 优化\r\n- 开关按钮统一样式（ON态bg-primary-500 + transition-all动效）\r\n- 热更新支持强制更新标记（mandatory不可跳过）\r\n- Sidecar优雅关闭（POST /shutdown → saveDb → exit）\r\n\r\n### 修复\r\n- 发行版桌宠拖拽失效（pet-entry.ts抽取+esbuild IIFE打包，消除bare specifier import解析失败）",
   "version": "1.4.1",
   "mandatory": false,
   "platforms": {
     "windows-x86_64": {
-      "checksum_sha256": "368dc40b0c18a645f86e6df28a9712828e65cbe73f2b0b952816e75d1e8ced4f",
+      "checksum_sha256": "711b342d831552cc690d2c54e58fbe710cccb0786f45df49a094d9756787e6f6",
       "url": "https://github.com/WiBeeBaBu/i_remember_u_release/releases/download/v1.4.1/I.Remember.U_1.4.1_x64-setup.exe",
       "signature": ""
     }
-  },
-  "notes": "## v1.4.1 更新内容\r\n\r\n### 新增\r\n- 桌面宠物（SVG珊瑚心形角色，5状态动画：待机呼吸/点击弹跳/拖拽形变/睡眠摇摆/生日提醒弹窗）\r\n- 热更新机制（双端点容灾：GitHub Raw + Supabase Storage，流式下载+SHA256校验+NSIS静默安装）\r\n- CI/CD自动化构建发布（GitHub Actions workflow_dispatch 一键构建）\r\n\r\n### 优化\r\n- 开关按钮统一样式（ON态bg-primary-500 + transition-all动效）\r\n- 热更新支持强制更新标记（mandatory不可跳过）\r\n- Sidecar优雅关闭（POST /shutdown → saveDb → exit）\r\n\r\n### 修复\r\n- pet.html拖拽失效（恢复LogicalPosition，修复IPC序列化类型丢失）",
-  "pub_date": "2026-05-19T18:43:19Z"
+  }
 }
